@@ -7,14 +7,16 @@
 	layout:decorator="layout">
 	
 <html>
+
 <body>
 	<div align="right">
 		<h5>Jesteś zalogowany jako:</h5>
 		<%
 			out.println((String) session.getAttribute("user"));
 		%>
-		<hr>
 		<a href='logout.jsp'>Wyloguj</a><br/>
+		<hr>
 	</div>
 </body>
+
 </html>

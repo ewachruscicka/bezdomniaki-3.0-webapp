@@ -18,10 +18,13 @@
 				layout:fragment="pageTitle" />
 		</h1>
 		<form action="search.jsp" method="post">
-			Login: <input type="text" name="login" value="" /><br />
-			<br /> Hasło: <input type="password" name="password" value="" /><br />
-			<br /> <input type="submit" value="Zaloguj" />
+			Login: <input type="text" name="login" value="" /><br /> <br />
+			Hasło: <input type="password" name="password" value="" /><br /> <br />
+			<input type="submit" value="Zaloguj" />
 		</form>
 	</div>
 </body>
+
 </html>
+
+
